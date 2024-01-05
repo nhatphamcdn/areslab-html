@@ -2088,7 +2088,7 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
-  --yellow: #f1f566;
+  --yellow: #EB4F58;
   --light-black: #121212;
   --dark-slate-grey: #3a3a3a;
 }
@@ -2933,7 +2933,7 @@ textarea.w-input, textarea.w-select {
 .nav-link.header-button {
   color: #000;
   text-transform: uppercase;
-  background-color: #f1f566;
+  background-color: #EB4F58;
   border-radius: 5px;
   margin-left: 20px;
   padding-top: 10px;
@@ -3128,7 +3128,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-span-12 {
-  color: #fcff72;
+  color: #EB4F58;
 }
 
 .image-33 {
@@ -3173,7 +3173,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-span-13 {
-  color: #f1f566;
+  color: #EB4F58;
 }
 
 .text-span-13.how-to-use {
