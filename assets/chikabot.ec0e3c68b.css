@@ -4985,4 +4985,19 @@ textarea.w-input, textarea.w-select {
     display: block;
     width: 100%;
   }
+  .blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 990;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .blur.is-active {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    background-color: #0000007a;
+  }
 }
