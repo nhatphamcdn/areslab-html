@@ -4961,3 +4961,28 @@ textarea.w-input, textarea.w-select {
     justify-self: center;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .w-nav[data-collapse="medium"] .nav-menu.w-nav-menu {
+    /* height: 0; */
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+  .w-nav[data-collapse="medium"] .nav-menu.w-nav-menu .nav-link {
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 1rem;
+    border-bottom: 1px solid #0f0f0f;
+  }
+  .w-nav[data-collapse="medium"] .nav-menu.w-nav-menu.is-active {
+    height: auto;
+    text-align: left;
+  }
+  .w-nav[data-collapse="medium"] .nav-menu.w-nav-menu.is-active .nav-link {
+    display: block;
+    width: 100%;
+  }
+}
